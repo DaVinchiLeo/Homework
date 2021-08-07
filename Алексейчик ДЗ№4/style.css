@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(31, 24, 24);
+}
+.text1{ 
+    font-size: 1.1em;
+    color: blanchedalmond; 
+    padding: 50px;
+    font-family: 'Pacifico', 'Times New Roman';
+    line-height: 250%;
+    letter-spacing: normal;
+    text-align: justify;
+}
+.stor1{
+    background: url('Images/Storons.png') repeat-y;
+}
+.stor2{
+    background: url('Images/right.png') repeat-y; 
+    background-position: right top;
+}
+.top{
+    background: url('Images/V.png') repeat-x;
+}
+.bott{
+    background: url('Images/V.png') repeat-x; 
+    background-position: left bottom;
+}
+.ugol1{
+    background: url('Images/UG1.png') no-repeat;
+}
+.ugol2{
+    background: url('Images/UG2.png') right top no-repeat;
+}
+.ugol3{
+    background: url('Images/UG3.png') right bottom no-repeat;
+}
+.ugol4{background: url('Images/UG4.png') left bottom no-repeat;
+}
