@@ -1,0 +1,9 @@
+.picture
+ { float: left;
+     background: url("../image/star0.png"); 
+    width: 75px; height: 78px 
+}
+
+.picture:hover~.picture{
+    background: url("../image/star1.png");
+}
