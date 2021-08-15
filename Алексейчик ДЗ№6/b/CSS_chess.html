@@ -17,31 +17,26 @@
       height: 50px;
       border: solid gray 1px;
     }
-    tr:nth-child(odd) td:nth-child(even) {
-      background: #000000;
-    }
 
+    tr:nth-child(odd) td:nth-child(even),
     tr:nth-child(even) td:nth-child(odd) {
       background: #000000;
     }
 
     
-    
-    tr:first-of-type {
+    tr:first-of-type, 
+    tr:last-of-type, 
+    td:first-child, 
+    td:last-child {
       background: green !important
     }
-
-    tr:last-of-type {
+    /*
+    td:first-child,
+    td:last-child,
+    tr:first-child,
+    tr:last-child {
       background: green !important
-    }
-
-    td:first-child {
-      background: green !important
-    }
-
-    td:last-child{
-      background: green !important
-    }
+    }*/
   </style>
 
   <table class='CHESS'>
