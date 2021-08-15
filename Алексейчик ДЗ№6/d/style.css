@@ -1,9 +1,17 @@
-.picture
- { float: left;
-     background: url("../image/star0.png"); 
-    width: 75px; height: 78px 
+.aria {
+  width: 525px;
+  height: 546px;
+}
+.picture {
+  float: right;
+  background: url("../image/star0.png");
+  width: 75px;
+  height: 78px;
 }
 
-.picture:hover~.picture{
-    background: url("../image/star1.png");
+.picture:hover ~ .picture {
+  background: url("../image/star1.png");
 }
+
+/*просто закастылял это задание
+и то отображает не согласно заданию*/

@@ -56,3 +56,11 @@ a:nth-child(-n + 4)::after {
   display: inline;
   padding: 0px;
 }
+.tbl{
+  background-color: #d0ffd0;
+}
+.tbl td{
+  font-style: italic;
+  font-size: 20px;
+  background-color: #ccf7cc;
+}

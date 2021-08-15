@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    
+
     <div class="link">
 
         <a href="https://www.goodfon.ru/">Первая ссылка</a>
@@ -18,7 +18,7 @@
         <a href="https://www.goodfon.ru/">Третья ссылка</a>
         <a href="https://www.goodfon.ru/">Четвертая ссылка</a>
         <a href="https://www.goodfon.ru/">Пятая ссылка</a>
-
+        <!--Тут реализовал ссылки при помощи div-->
     </div>
     <div class="links">
 
@@ -36,6 +36,7 @@
         <a href="https://www.goodfon.ru/" class="menu__item">Третья ссылка</a>
         <a href="https://www.goodfon.ru/" class="menu__item menu__item-importance-high">Четвертая ссылка</a>
         <a href="https://www.goodfon.ru/" class="menu__item menu__item-importance-low">Пятая ссылка</a>
+        <!--Взял в качестве примера и разбора из презенташки-->
     </div>
     <div class="spisok">
         <ul>
@@ -45,7 +46,27 @@
             <li> <a href="https://www.goodfon.ru/">Четвертая ссылка</a></li>
             <li> <a href="https://www.goodfon.ru/">Пятая ссылка</a></li>
         </ul>
+        <!--Тут реализовал ссылки с помощью списка-->
+    </div>
+    <div>
+        <table class="tbl">
+            <tr>
+                <td><a href="https://www.goodfon.ru/">Первая ссылка</a></td>
+                <td><a href="https://www.goodfon.ru/">Вторая ссылка</a></td>
+                <td><a href="https://www.goodfon.ru/">Третья ссылка</a></td>
+                <td><a href="https://www.goodfon.ru/">Четвертая ссылка</a></td>
+                <td><a href="https://www.goodfon.ru/">Пятая ссылка</a></td>
+            </tr>
+        </table>
+        <!--Тут реализовал ссылки в таблице-->
     </div>
 </body>
+<!-- 1)Ссылки реализованы след. методами: обычный div, список li и при помощи таблицы
+     2)Из использованных мною способов реализации ссылок
+     столкнулся с проблемамми со списком и таблицей (разделение между ссылками настроить ну ни как одекватно не получалось).
+      Использовать обычный div показалось более рациональным и удобным 
+  3) разделение сделал только одним способом при помощи a:nth-child(-n + 4)::after
+
+-->
 
 </html>
