@@ -22,21 +22,13 @@
     tr:nth-child(even) td:nth-child(odd) {
       background: #000000;
     }
-
     
-    tr:first-of-type, 
-    tr:last-of-type, 
-    td:first-child, 
-    td:last-child {
-      background: green !important
-    }
-    /*
     td:first-child,
     td:last-child,
-    tr:first-child,
-    tr:last-child {
+    tr:first-child td:nth-child(n),
+    tr:last-child td:nth-child(n) {
       background: green !important
-    }*/
+    }
   </style>
 
   <table class='CHESS'>

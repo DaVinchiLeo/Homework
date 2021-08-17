@@ -1,32 +1,30 @@
-h1{
-    padding: 2px;
-    margin: 2px;
+h1 {
+  padding: 2px;
+  margin: 2px;
 }
-p{padding: 2px;
-margin: 2px;
+p {
+  padding: 2px;
+  margin: 2px;
 }
 
-  
 p:nth-child(2) {
-    color: rgb(3, 129, 3);
-    
+  color: rgb(3, 129, 3);
 }
 
 p:nth-child(3) {
-    color: rgb(252, 4, 4);
-    font-weight: 600;
-}
-  
-  
-a {
-    text-decoration: none;
-    font-weight: 600;
-}
-a:before{
-    content: url("../../image/extref.png");
+  color: rgb(252, 4, 4);
+  font-weight: 600;
 }
 
-p:last-of-type{
-    font-style: italic;
-    color: rgb(104, 70, 184);
+a {
+  text-decoration: none;
+  font-weight: 600;
+}
+a:before {
+  content: url("../../image/extref.png");
+}
+
+p:last-of-type {
+  font-style: italic;
+  color: rgb(104, 70, 184);
 }

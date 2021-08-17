@@ -9,7 +9,8 @@
   height: 78px;
 }
 
-.picture:hover ~ .picture {
+.picture:hover ~ .picture,
+.picture:hover {
   background: url("../image/star1.png");
 }
 
