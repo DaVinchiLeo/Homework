@@ -67,7 +67,7 @@ a {
     color: blanchedalmond;
   }
 }
-@media all and (max-width: 800px) {
+@media all and (max-width: 767px) {
   .heading1level {
     text-align: center;
     margin: 0px;
@@ -129,7 +129,7 @@ a {
     color: blanchedalmond;
   }
 }
-@media all and (max-width: 1200px) and (min-width: 800px) {
+@media all and (max-width: 1200px) and (min-width: 768px) {
   .heading1level {
     text-align: center;
     margin: 0px;
