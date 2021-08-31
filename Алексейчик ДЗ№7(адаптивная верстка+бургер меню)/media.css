@@ -1,0 +1,61 @@
+.heading1level {
+  text-align: center;
+  margin: 0px;
+  padding: 15px;
+  font-family: Lobster;
+  font-size: 48px;
+  color: rgb(70, 255, 24);
+}
+
+.heading2level {
+  width: 100%;
+  float: right;
+  text-align: center;
+  background-color: rgb(5, 13, 70);
+  font-size: 26px;
+  font-family: Lobster;
+  color: aliceblue;
+}
+
+.image_coffee {
+  float: left;
+  width: 180px;
+  height: 250px;
+}
+
+.link_section {
+  width: 100%;
+  padding: 0px;
+
+  background: rgb(10, 14, 46);
+}
+.link_section li {
+  width: 250px;
+  list-style: none;
+  display: inline;
+  padding: 15px;
+}
+li::before {
+  content: url("image/spis.png");
+}
+
+.list_of_links {
+  margin: 0px;
+  padding: 0px;
+}
+
+.notclear {
+  clear: both;
+  text-align: center;
+  background-color: rgb(5, 13, 70);
+  font-size: 26px;
+  font-family: Lobster;
+  color: aliceblue;
+}
+.content {
+  margin-left: 10px;
+  background-color: rgb(10, 14, 46);
+  font-size: 18px;
+  font-family: Pattaya;
+  color: blanchedalmond;
+}
