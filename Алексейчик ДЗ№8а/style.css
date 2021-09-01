@@ -1,0 +1,33 @@
+p {
+  padding: 0px;
+  margin: 0px;
+}
+input[type="text"],
+textarea {
+  width: 50%;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  vertical-align: middle;
+  margin: 0;
+}
+.wwww {
+  float: left;
+}
+
+.rr {
+  clear: both;
+}
+
+select[name="category"] {
+}
+.div_for_text {
+  width: 180px;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+}
+.style_for_input {
+  margin: 0px;
+}

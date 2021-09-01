@@ -1,0 +1,32 @@
+p {
+    padding: 0px;
+    margin: 0px;
+    color: rgb(233, 0, 0);
+  }
+  input[type="text"],
+  textarea {
+    width: 100%;
+      
+  }
+  
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    vertical-align: middle;
+    margin: 0;
+  }
+  .wwww{
+    clear: both;
+  }
+  select[name="category"] {
+    width: 100%;
+  }
+  .div_for_text {
+    width: 180px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+  }
+  .style_for_input {
+    margin: 0px;
+  }
