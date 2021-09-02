@@ -1,0 +1,33 @@
+.for_relative{
+    
+    border: solid red 1px; 
+    background-color: aqua;
+    position: relative;
+}
+.for_images1{
+    position: absolute;
+    left: 250px;
+    top: 80px;
+}
+
+.for_images2{
+    position: absolute;
+    left: 450px;
+    top: 50px;
+}
+.for_images3{
+    position: absolute;
+    left: 350px;
+    top: 250px;
+}
+.for_images4{
+    position: absolute;
+    left: 320px;
+    top: 130px;
+}
+.for_images1:hover,
+.for_images2:hover,
+.for_images3:hover
+{
+    z-index: 1;
+}
