@@ -6,20 +6,17 @@ input[type="text"],
 textarea {
   width: 50%;
 }
-
 input[type="radio"],
 input[type="checkbox"] {
   vertical-align: middle;
   margin: 0;
 }
-.wwww {
+.for_float {
   float: left;
 }
-
-.rr {
+.for_clear_both {
   clear: both;
 }
-
 select[name="category"] {
 }
 .div_for_text {
