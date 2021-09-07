@@ -2,6 +2,18 @@
   padding: 0px;
   margin: 0px;
 }
+.vis_block{
+  width: 250px;
+  height: 25px;
+  background-color: rgb(199, 236, 236);
+  border: 4px double black;
+  border-radius: 26px;
+  position: fixed;
+  text-align:center;
+  top: 25px;
+  right: 25px;
+  z-index: 2;
+}
 
 .for_relative {
   width: 100%;
