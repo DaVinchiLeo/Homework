@@ -1,7 +1,7 @@
 .for_bottom {
     display: flex;
     align-items: center;
-    position: fixed;
+    position: absolute;
     width: 35px;
     height: 35px;
     cursor: pointer;
@@ -22,6 +22,11 @@
   .for_bottom > span::after {
     content: "";
     top: 8px;
+  }
+  .link_section {
+    position:relative;
+    display: block;
+    background: rgb(10, 14, 46);
   }
   .list_of_links {
     display: block;

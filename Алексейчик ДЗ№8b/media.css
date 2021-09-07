@@ -1,0 +1,21 @@
+.for_images1 {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.for_images2 {
+  position: absolute;
+  left: 150px;
+  top: 10px;
+}
+.for_images3 {
+  position: absolute;
+  left: 80px;
+  top: 200px;
+}
+.for_images4 {
+  position: absolute;
+  left: 60px;
+  top: 90px;
+}
