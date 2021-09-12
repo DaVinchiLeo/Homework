@@ -1,90 +1,62 @@
-body{
-    background-color: rgb(10, 14, 46);
+.body_website {
+  background-color: rgb(10, 14, 46);
+}
+.flex_div {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-h1,h2{
-    margin: 0px;
-    line-height: 100%;
+h1,
+h2 {
+  margin: 0px;
+  line-height: 100%;
+  background-color: rgb(5, 13, 70);
 }
 
-a{  
-    color: blanchedalmond;
-    text-decoration: none;
-    font-family:  Pattaya;
+a {
+  color: blanchedalmond;
+  text-decoration: none;
+  font-family: Pattaya;
 }
-.heading1level{
-    text-align: center;
-    margin: 0px;
-    padding: 15px;
-    font-family:Lobster;
-    font-size: 48px;
-    color: aliceblue;
-}
-
- .heading2level{
-    text-align: center;
-    background-color:rgb(5, 13, 70) ;
-    font-size: 26px;
-    font-family: Lobster;
-    color: aliceblue;
-}
-.heading22level{
-    text-align: center;
-    background-color:rgb(5, 13, 70) ;
-    font-size: 36px;
-    font-family: Lobster;
-    color: aliceblue;
+.heading1level {
+  text-align: center;
+  margin: 0px;
+  font-family: Lobster;
+  font-size: 48px;
+  color: aliceblue;
+  width: 100%;
 }
 
-.image_coffee{
-    float: left;
+.heading2level {
+  text-align: center;
+  font-size: 26px;
+  font-family: Lobster;
+  color: aliceblue;
+  width: 500px;
 }
 
- .link_section{
-    width: 200px;
-    float: left; 
-    /*background:rgb(10, 14, 46);*/
-    background-color: chartreuse;
-    
+.image_coffee {
+  float: left;
 }
 
-.list_of_links { 
-    list-style-image: url("../img/spis.png");
-   }
+.link_section {
+  width: 225px;
 
-.notclear{
-    clear: both;
+  /*background:rgb(10, 14, 46);*/
+  background-color: chartreuse;
 }
+
+.list_of_links {
+  list-style-image: url("../img/spis.png");
+}
+
 .content {
-    margin-left: 210px;
-    /*margin-right: 200px;*/
-    background-color:rgb(10, 14, 46);;
-    font-size: 18px;
-    font-family:  Pattaya;
-    color: blanchedalmond;
+  background-color: rgb(10, 14, 46);
+  font-size: 18px;
+  font-family: Pattaya;
+  color: blanchedalmond;
+  text-align: justify;
 }
-.content2 {
-    margin-left: 10px;
-    /*margin-right: 200px;*/
-    background-color:rgb(10, 14, 46);;
-    font-size: 18px;
-    font-family:  Pattaya;
-    color: blanchedalmond;
-}
-.tbl{
-    width: 100%;
-    height: 100%;
-}
-
-.left_row{
-    width: 200px;
-    text-align: left;
-    vertical-align: top;
-}
-.right_row{        
-    text-align: left;
-    vertical-align: top;
-}   
-.colorrow{
-    background-color:rgb(5, 13, 70) ;
+.razmer {
+  width: 100%;
 }
