@@ -32,7 +32,8 @@ a {
   font-size: 26px;
   font-family: Lobster;
   color: aliceblue;
-  width: 500px;
+
+  width: calc(100%-300px);
 }
 
 .image_coffee {
