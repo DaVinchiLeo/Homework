@@ -6,13 +6,18 @@
   flex-wrap: wrap;
 }
 
-h1,
+h1 {
+  margin: 15px;
+  line-height: 100%;
+}
 h2 {
   margin: 0px;
   line-height: 100%;
   background-color: rgb(5, 13, 70);
 }
-
+#toggle {
+  opacity: 0;
+}
 a {
   color: blanchedalmond;
   text-decoration: none;
@@ -20,7 +25,6 @@ a {
 }
 .heading1level {
   text-align: center;
-  margin: 0px;
   font-family: Lobster;
   font-size: 48px;
   color: aliceblue;
@@ -32,25 +36,28 @@ a {
   font-size: 26px;
   font-family: Lobster;
   color: aliceblue;
-
-  width: calc(100%-300px);
+  width: calc(100% - 225px);
 }
-
 .image_coffee {
   float: left;
+}
+.stretch {
+  width: 100%;
+  height: 100%;
 }
 
 .link_section {
   width: 225px;
-
-  /*background:rgb(10, 14, 46);*/
   background-color: chartreuse;
 }
-
 .list_of_links {
-  list-style-image: url("../img/spis.png");
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
-
+li::before {
+  content: url("../img/spis.png");
+}
 .content {
   background-color: rgb(10, 14, 46);
   font-size: 18px;
@@ -58,6 +65,7 @@ a {
   color: blanchedalmond;
   text-align: justify;
 }
-.razmer {
+.width_div {
   width: 100%;
+  background-color: rgb(210, 0, 252);
 }
