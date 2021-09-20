@@ -1,0 +1,47 @@
+.grid_div {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "logo logo"
+    "content content"
+    "links links"
+    "footer footer";
+}
+
+.heading1level {
+  color: rgb(70, 255, 24);
+  order: 1;
+}
+
+.heading2level {
+  width: 100%;
+}
+
+.image_coffee {
+  float: none;
+  width: 100%;
+}
+
+.order_hed {
+  order: 2;
+}
+.link_section {
+  width: 100%;
+  padding: 0px;
+  background: rgb(10, 14, 46);
+  order: 3;
+}
+.link_section {
+  background-color: rgba(23, 219, 253, 0.521);
+  list-style-image: url("../img/spis.png");
+}
+
+li {
+  display: inline;
+  padding: 15px;
+}
+
+.width_div {
+  order: 4;
+}
