@@ -1,13 +1,13 @@
-.body_website {
+.body {
   background-color: rgb(10, 14, 46);
 }
-.flex_div {
+.flex {
   display: flex;
   flex-wrap: wrap;
 }
 
 h1 {
-  margin: 15px;
+  padding: 15px;
   line-height: 100%;
 }
 h2 {
@@ -23,23 +23,24 @@ a {
   text-decoration: none;
   font-family: Pattaya;
 }
-.heading1level {
+.heading_font {
   text-align: center;
   font-family: Lobster;
-  font-size: 48px;
+  font-size: 75px;
   color: aliceblue;
   width: 100%;
 }
 
-.heading2level {
+.content_font {
   text-align: center;
   font-size: 26px;
   font-family: Lobster;
   color: aliceblue;
-  width: calc(100% - 225px);
+  width: calc(100% - 300px);
 }
 .image_coffee {
   float: left;
+  margin: 0 auto;
 }
 .stretch {
   width: 100%;
@@ -47,7 +48,7 @@ a {
 }
 
 .link_section {
-  width: 225px;
+  width: 300px;
   background-color: chartreuse;
 }
 .list_of_links {
@@ -56,16 +57,18 @@ a {
   padding: 0px;
 }
 li::before {
+  padding: 5px;
   content: url("../img/spis.png");
 }
 .content {
+  padding: 5px;
   background-color: rgb(10, 14, 46);
   font-size: 18px;
   font-family: Pattaya;
   color: blanchedalmond;
   text-align: justify;
 }
-.width_div {
+.width_footer {
   width: 100%;
   background-color: rgb(210, 0, 252);
 }

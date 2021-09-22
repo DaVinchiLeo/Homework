@@ -1,9 +1,9 @@
-.heading1level {
+.heading_font {
   color: rgb(70, 255, 24);
   order: 1;
 }
 
-.heading2level {
+.content_font {
   width: 100%;
 }
 
@@ -32,6 +32,6 @@ li {
   padding: 15px;
 }
 
-.width_div {
+.width_footer {
   order: 4;
 }

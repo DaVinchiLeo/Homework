@@ -1,4 +1,4 @@
-.grid_div {
+.grid {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: auto;
@@ -14,13 +14,12 @@
   order: 1;
 }
 
-.heading2level {
-  width: 100%;
-}
+.stretch{width: 100%;height: 100%;}
 
 .image_coffee {
   float: none;
   width: 100%;
+  height: 100%;
 }
 
 .order_hed {
@@ -29,14 +28,10 @@
 .link_section {
   width: 100%;
   padding: 0px;
-  background: rgb(10, 14, 46);
-  order: 3;
-}
-.link_section {
   background-color: rgba(23, 219, 253, 0.521);
   list-style-image: url("../img/spis.png");
+  order: 3;
 }
-
 li {
   display: inline;
   padding: 15px;

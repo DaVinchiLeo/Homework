@@ -1,4 +1,4 @@
-.grid_div {
+.grid {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: auto;
@@ -44,7 +44,7 @@
   position: absolute;
   visibility: hidden;
   left: -100%;
-  width: 300px;
+  width: 100%;
   height: 300px;
   margin: 0;
   padding: 80px 0;
@@ -53,18 +53,8 @@
   overflow: scroll;
   background-color: #37c060;
 }
-.my_link {
-  display: block;
-  padding: 12px 24px;
-  color: #fbff11;
-  font-style: italic;
-  font-size: 20px;
-  font-weight: 600;
-  text-decoration: none;
-}
-.my_link:hover {
-  background-color: #359bc7;
-}
+
+
 #toggle:checked ~ .for_bottom > span {
   transform: rotate(45deg);
 }
@@ -87,9 +77,6 @@
   color: rgb(251, 255, 23);
 }
 
-.heading2level {
-  width: 100%;
-}
 
 .image_coffee {
   display: none;

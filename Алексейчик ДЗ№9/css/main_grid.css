@@ -1,9 +1,9 @@
 .body_website {
   background-color: rgb(10, 14, 46);
 }
-.grid_div {
+.grid {
   display: grid;
-  grid-template-columns: 225px 1fr;
+  grid-template-columns: 300px 1fr;
   grid-template-rows: auto;
   grid-template-areas:
     "logo logo"
@@ -12,11 +12,11 @@
 }
 
 h1 {
-  margin: 15px;
+  padding: 15px;
   line-height: 100%;
 }
 h2 {
-  margin: 0px;
+  padding: 0px;
   line-height: 100%;
   background-color: rgb(5, 13, 70);
 }
@@ -29,9 +29,10 @@ a {
   font-family: Pattaya;
 }
 .heading1level {
+  padding: 10px;
   text-align: center;
   font-family: Lobster;
-  font-size: 48px;
+  font-size: 75px;
   color: aliceblue;
   grid-area: logo;
 }
@@ -45,10 +46,6 @@ a {
 }
 .image_coffee {
   float: left;
-}
-.stretch {
-  width: 100%;
-  height: 100%;
 }
 
 .link_section {
@@ -69,8 +66,10 @@ li::before {
   font-family: Pattaya;
   color: blanchedalmond;
   text-align: justify;
+  padding: 0 25px;
 }
-.width_div {
+.width_footer {
   grid-area: footer;
   background-color: rgb(205, 175, 211);
+  padding: 25px;
 }
