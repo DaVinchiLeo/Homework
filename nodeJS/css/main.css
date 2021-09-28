@@ -1,0 +1,57 @@
+@import url(../css/reset.css);
+.widht_top, .font_size {
+  font-size: 26px;
+  font-family: "Playfair Display SC";
+  color: #00eeff; }
+
+body {
+  background-color: #e9509d;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+main {
+  display: flex;
+  justify-content: space-around; }
+
+section {
+  width: 600px;
+  height: 900px;
+  background: url(../img/vostok.jpg);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: inherit; }
+
+.widht_top {
+  height: 50px;
+  margin: 25px;
+  display: flex;
+  justify-content: center; }
+
+p {
+  margin: auto;
+  padding: 0px;
+  text-align: center; }
+
+.widht_center {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.img {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto; }
+
+.font_size {
+  width: 100%;
+  font-size: 180px;
+  padding: 75px 0 5px 0;
+  line-height: 10px; }
+
+.font_size span {
+  font-size: 56px; }
+
+.tt {
+  width: 10px; }
