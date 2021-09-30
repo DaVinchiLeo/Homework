@@ -1,8 +1,9 @@
 @import url(../css/reset.css);
-.widht_top, .font_size {
+.widht_top, .font_size, .font_size_span, .span_arrow {
   font-size: 26px;
   font-family: "Playfair Display SC";
-  color: #00eeff; }
+  color: #fffb00;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000; }
 
 body {
   background-color: #e9509d;
@@ -11,21 +12,20 @@ body {
   align-items: center; }
 
 main {
+  background: url(../img/vostok.jpg);
+  background-size: cover;
   display: flex;
   justify-content: space-around; }
 
 section {
-  width: 600px;
-  height: 900px;
-  background: url(../img/vostok.jpg);
-  background-size: cover;
+  width: 420px;
   display: flex;
   flex-wrap: wrap;
   justify-content: inherit; }
 
 .widht_top {
   height: 50px;
-  margin: 25px;
+  margin-top: 25px;
   display: flex;
   justify-content: center; }
 
@@ -35,8 +35,10 @@ p {
   text-align: center; }
 
 .widht_center {
+  padding: 30px 0 0 0;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap; }
 
 .img {
@@ -45,13 +47,17 @@ p {
   margin: 0 auto; }
 
 .font_size {
-  width: 100%;
-  font-size: 180px;
-  padding: 75px 0 5px 0;
-  line-height: 10px; }
+  padding: 0;
+  font-size: 260px;
+  text-align: center; }
 
-.font_size span {
-  font-size: 56px; }
+.font_size_span {
+  font-size: 52px; }
 
-.tt {
-  width: 10px; }
+.span_arrow {
+  font-size: 24px; }
+
+@media all and (max-width: 600px) {
+  section {
+    width: 100%;
+    height: 100%; } }
