@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        let a = Number( prompt('Введите первое число'));
+        let b = Number( prompt('Введите второе число'));
+        let operation= prompt('Какую операцию будем проводить? (/ деление, * умножение, - вычетание, + сложение)')
+        let result;
+        
+        if(operation === "/" )
+        {result=a/b;}
+
+        if(operation === "*" )
+        {result=a*b;}
+
+        if(operation === "-" )
+        {result=a-b;}
+
+        if(operation === "+" )
+        {result=a+b;}
+
+        
+        alert(result);
+        confirm(`результат = ${result}!`);
+
+    </script>
+</body>
+
+</html>
